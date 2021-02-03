@@ -1,0 +1,96 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (min-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+body {
+  background-color: #FFC017;
+  color: black;
+  font-size: 14;
+  line-height: 1.5
+}
+
+h1, h2, h3 {
+  font-weight: lighter;
+  color: #080808;
+  font-family: 'Poppins', sans-serif;
+  line-height: 0.6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  color: #080808;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #292929;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.container {
+  margin: 0 auto;
+
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+#name {
+  font-size:24px;
+  font-weight: bold;
+}
+
+.btn-black {
+  padding: 20px;
+  color: white;
+  background-color: #080808;
+  transition: 0.3s;
+}
+
+.list_logos {
+  list-style:none;
+  padding: 0px;
+
+}
+.list_logos li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.list_logos i {
+  font-size: 30px;
+}
+.far {
+  margin: 10px;
+}
+.image_self {
+  border-radius: 50%;
+}
+
